@@ -6,6 +6,7 @@ package `20240814`
 //では, 1 から 20 までの整数全てで割り切れる数字の中で最小の正の数はいくらになるか.
 
 fun main() {
+    val startTime = System.currentTimeMillis()
     var n = 1
 
     while (true) {
@@ -25,4 +26,6 @@ fun main() {
 
         n++
     }
+    val endTime = System.currentTimeMillis()
+    println(endTime - startTime)
 }
